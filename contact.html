@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <style>*{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main{
+        width: 100%;
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(pic/bakir.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+    }
+    
+    .icon{
+        width: 200px;
+        float: left;
+        height: 70px;
+    }
+    
+    .logo{
+        color: #ff7200;
+        font-size: 35px;
+        font-family: Arial;
+        padding-left: 20px;
+        float: left;
+        padding-top: 10px;
+        margin-top: 5px
+    }
+    
+    .menu{
+        width: 400px;
+        float: left;
+        height: 70px;
+    }
+    
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul li{
+        list-style: none;
+        margin-left: 62px;
+        margin-top: 27px;
+        font-size: 14px;
+    
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: rgb(31, 30, 30);
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    
+    ul li a:hover{
+        color: #ff7200;
+    }
+    
+    .content{
+        width: 1200px;
+        height: auto;
+        margin: auto;
+        color: rgb(0, 0, 0);
+        position: relative;
+        font-weight: bold;
+    }
+    .content .par{
+        padding-left: 20px;
+        padding-bottom: 25px;
+        margin-top: 70px;
+        font-family: Arial;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+    }
+    
+    
+    .form{
+        width: 250px;
+        height: 380px;
+        background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+        position: absolute;
+        top: -20px;
+        left: 870px;
+        transform: translate(0%,-5%);
+        border-radius: 10px;
+        padding: 25px;
+    }
+    
+    .form h2{
+        width: 220px;
+        font-family: sans-serif;
+        text-align: center;
+        color: #ff7200;
+        font-size: 22px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 2px;
+        padding: 8px;
+    }
+    
+    .form input{
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid #ff7200;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+    }
+    
+    .form input:focus{
+        outline: none;
+    }
+    
+    ::placeholder{
+        color: #fff;
+        font-family: Arial;
+    }
+    
+    .btnn{
+        width: 240px;
+        height: 40px;
+        background: #ff7200;
+        border: none;
+        margin-top: 30px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #fff;
+        transition: 0.4s ease;
+    }
+    .btnn:hover{
+        background: #fff;
+        color: #ff7200;
+    }
+    .btnn a{
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+    .form .link{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding-top: 20px;
+        text-align: center;
+        color: #fff;
+    }
+    .form .link a{
+        text-decoration: none;
+        color: #ff7200;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">RazSchool</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                  
+                </ul>
+            </div>
+
+            
+        </div> 
+        <div class="content">
+           
+            <p class="par">We are a learning community <br>dedicated to inspiring success <br>and nurturing well-being. Excellence <br>in our education is at the heart of <br>everything we do, because <br>we believe that everyone deserves <br>the best possible future.</p>
+
+                
+
+                <div class="form">
+                    <h2>Signin </h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btnn"><a href="#">SignIn</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="signup.html">click Here </p>
+                    
+
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+</body>
+</html>
